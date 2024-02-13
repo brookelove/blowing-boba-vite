@@ -7,13 +7,9 @@ function App() {
 
   return (
     <div>
-      {/* <Header> */}
-        {/* <Nav currentPage={currentPage} /> */}
-      {/* </Header> */}
       <main>
         <Page currentPage={currentPage} />
       </main>
-      {/* <Footer /> */}
     </div>
   );
 }
