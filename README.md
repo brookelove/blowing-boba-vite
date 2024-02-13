@@ -2,8 +2,11 @@
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+## Wireframes
 
-
+    USER PAGE
+![Customer Pages](./Images/customerwireframe.png)
+    This image includes the layout wireframes for the cusotmer frontend portion of the application. This includes a home, loading, 404, cart, and more. I tried to ensure that there was a fun but easy navigation of the page while designing this portion of the website.
 
 Official Plugins:
 
