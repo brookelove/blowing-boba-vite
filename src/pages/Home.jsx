@@ -1,8 +1,9 @@
 const Home = () =>  {
 
     return (
-      <header className="flex-row space-between px-1">
-        <h1>Home</h1>
+      <header className="">
+        <section></section>
+        <h1>BLOWING BOBA</h1>
       </header>
     );
   }
