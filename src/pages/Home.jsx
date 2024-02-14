@@ -1,11 +1,17 @@
-import "../assets/CSS/Home.css"
+import "../assets/CSS/Home.css";
+import PartyPack from "../components/PartyPack";
+import Quotes from "../components/Quotes";
 const Home = () =>  {
 
     return (
-      <header className="homeContiner d-c-even">
+      <section>
+        <header className="homeContiner d-c-even">
         <section className="bigBox"></section>
         <h1 className="">BLOWING BOBA</h1>
-      </header>
+        </header>
+        <PartyPack/>
+        <Quotes/>
+      </section>
     );
   }
   
