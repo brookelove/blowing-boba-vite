@@ -1,0 +1,15 @@
+.homeContiner {
+    height:100vh
+}
+.homeContiner h1 {
+    margin:0;
+    text-align: center;
+    font-size: 10em;
+}
+/* getting a new image for the website */
+.homeContiner .bigBox { 
+    margin-top:5%;
+    width:500px;
+    height:500px;
+    background-color: blue;
+}
