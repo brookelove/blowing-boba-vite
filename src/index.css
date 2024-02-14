@@ -53,11 +53,23 @@ button {
   cursor: pointer;
   transition: border-color 0.25s; */
 }
+.d-c-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+ }
 .d-center {
  display: flex;
  align-items: center;
  justify-content: center; 
 }
+.d-c-even {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly; 
+ }
 .d-even {
   display: flex;
   align-items: center;
