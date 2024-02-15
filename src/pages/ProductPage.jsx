@@ -1,10 +1,16 @@
+import Navbar from "../components/Navbar";
 const ProductPage = () =>  {
 
     return (
-      <main className="productPageContainer">
+      <secion>
+        <Navbar/>
+        <main className="productPageContainer">
         {/* this is where the if or statement comes to play where it is a */}
-        
-      </main>
+        <section>
+          {/* cards that are product where they are mapped*/}
+        </section>
+        </main>
+      </secion>
     );
   }
   

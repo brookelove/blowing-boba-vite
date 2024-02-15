@@ -1,0 +1,13 @@
+nav {
+    margin:0 1%;
+}
+nav .links {
+    width: 15%;
+}
+nav h1 {
+    padding-right: 110px;
+}
+nav section .shopping-cart-icon {
+   height: 20px;
+   width: 30px; 
+}
