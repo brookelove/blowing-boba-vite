@@ -1,0 +1,9 @@
+.errorContainer {
+    height: 100vh;
+}
+.errorContainer h1 {
+    margin: 0 0 2% 0;
+    background-color: blue; /* make it a video for the 404 page like bubbles in the water*/
+    font-size: 15em;
+    padding:5% 10%;
+}

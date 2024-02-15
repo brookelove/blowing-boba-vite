@@ -1,4 +1,4 @@
-const Product = () =>  {
+const ProductCloseUp = () =>  {
 
     return (
       <header className="flex-row space-between px-1">
@@ -6,4 +6,4 @@ const Product = () =>  {
     );
   }
   
-  export default Product;
+export default ProductCloseUp;
