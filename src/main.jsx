@@ -4,7 +4,7 @@ import App from './App.jsx'
 import NotFound from './pages/404.jsx';
 import Home from './pages/Home.jsx';
 import Loading from './pages/Loading.jsx';
-import Product from './pages/Product.jsx';
+import ProductPage from './pages/ProductPage.jsx';
 import { createBrowserRouter, RouterProvider, Routes } from 'react-router-dom';
 import './index.css';
 
@@ -20,7 +20,7 @@ const router = createBrowserRouter([
       },
       {
         path: 'product',
-        element: <Product />,
+        element: <ProductPage />,
       }
     ],
   },
