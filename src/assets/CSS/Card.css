@@ -1,0 +1,11 @@
+.cardContainer {
+    background-color: transparent;
+    border-radius: 4px;
+    margin:1%;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 0;
+}
+.cardContainer aside {
+    width: 100%;
+}

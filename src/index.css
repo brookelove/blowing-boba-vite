@@ -3,8 +3,6 @@
   line-height: 1.5;
   font-weight: 400;
 
-  /* color-scheme: light dark; */
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -91,4 +89,13 @@ button:hover {
 }
 .sub-text {
   font-size: 3em;
+}
+.productPageContainer section {
+  margin: 0 4%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: flex-start;
+
 }
