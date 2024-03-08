@@ -53,6 +53,10 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+button:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
 .d-c-center {
   display: flex;
   flex-direction: column;

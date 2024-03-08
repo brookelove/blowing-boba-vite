@@ -1,11 +1,11 @@
 .partyPackConatiner section {
     width:100%;
-    margin:2%
+    /* margin:2% */
 }
 .partyPackConatiner section div {
     width:300px;
     height:400px;
-    margin:10% 0;
+    margin:6% 0;
     background-color: blue;
 }
 .partyPackConatiner button {

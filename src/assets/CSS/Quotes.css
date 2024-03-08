@@ -1,3 +1,12 @@
 .quotesConatiner{
     height:40vh;
 }
+.quotesConatiner button {
+    padding:2px 10px;
+    border-radius: 50%;
+}
+.quotesConatiner button .arrow-icon {
+    margin-top: 2px;
+    height: 40px;
+    width: 30px; 
+}

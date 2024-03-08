@@ -1,0 +1,36 @@
+.contactContainer div{
+    background-color: blue;
+    height: 300px;
+    width: 30%;
+}
+.contactContainer form {
+    margin:0;
+    padding:0;
+    /* background-color: white; */
+    width:35%;
+    height: auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column
+}
+.contactContainer form input,.contactContainer form select{
+    width: calc(100% - 4px); 
+    border: 1px solid black;
+    height: 30px;
+}
+.contactContainer form select {
+    width: 100.2%;
+}
+.contactContainer textarea {
+    width: 505px;
+    height: 200px;
+    resize: none;
+    border-bottom:transparent;
+}
+.contactContainer button {
+    background-color: transparent;
+    color: black;
+    position: absolute;
+    bottom: 27%;
+    left: 42%;
+}

@@ -7,6 +7,7 @@ import Loading from './pages/Loading.jsx';
 import ProductPage from './pages/ProductPage.jsx';
 import { createBrowserRouter, RouterProvider, Routes } from 'react-router-dom';
 import './index.css';
+import Contact from './components/Contact.jsx';
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
       {
         path: 'product',
         element: <ProductPage />,
+      },
+      {
+        path: 'reachout',
+        element: <Contact />,
       }
     ],
   },
